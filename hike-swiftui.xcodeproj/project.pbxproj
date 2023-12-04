@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */; };
 		10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */; };
 		10B3834F2B1DB3E800E35A5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834E2B1DB3E800E35A5B /* ContentView.swift */; };
 		10B383512B1DB3E900E35A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B383502B1DB3E900E35A5B /* Assets.xcassets */; };
 		10B383542B1DB3E900E35A5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B383532B1DB3E900E35A5B /* Preview Assets.xcassets */; };
+		10B3835B2B1DC02500E35A5B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3835A2B1DC02500E35A5B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		10B383492B1DB3E800E35A5B /* hike-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hike-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hike_swiftuiApp.swift; sourceTree = "<group>"; };
 		10B3834E2B1DB3E800E35A5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10B383502B1DB3E900E35A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B383532B1DB3E900E35A5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10B3835A2B1DC02500E35A5B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1079B8022B1DC2DB00009E56 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				10B3835A2B1DC02500E35A5B /* CardView.swift */,
+				10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		10B383402B1DB3E800E35A5B = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +68,7 @@
 				10B3834E2B1DB3E800E35A5B /* ContentView.swift */,
 				10B383502B1DB3E900E35A5B /* Assets.xcassets */,
 				10B383522B1DB3E900E35A5B /* Preview Content */,
+				1079B8022B1DC2DB00009E56 /* Component */,
 			);
 			path = "hike-swiftui";
 			sourceTree = "<group>";
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B3834F2B1DB3E800E35A5B /* ContentView.swift in Sources */,
+				10B3835B2B1DC02500E35A5B /* CardView.swift in Sources */,
 				10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */,
+				10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,7 @@
 				DEVELOPMENT_TEAM = 84UUUS3LYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hike;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +316,7 @@
 				DEVELOPMENT_TEAM = 84UUUS3LYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hike;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
