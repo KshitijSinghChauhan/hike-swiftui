@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1037F6DE2B1DC80800D33662 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1037F6DD2B1DC80800D33662 /* ColorExtension.swift */; };
 		10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */; };
 		10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */; };
 		10B3834F2B1DB3E800E35A5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834E2B1DB3E800E35A5B /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1037F6DD2B1DC80800D33662 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		10B383492B1DB3E800E35A5B /* hike-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hike-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hike_swiftuiApp.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1037F6DC2B1DC7F400D33662 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1037F6DD2B1DC80800D33662 /* ColorExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		1079B8022B1DC2DB00009E56 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		10B3834B2B1DB3E800E35A5B /* hike-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				1037F6DC2B1DC7F400D33662 /* Utility */,
 				10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */,
 				10B3834E2B1DB3E800E35A5B /* ContentView.swift */,
 				10B383502B1DB3E900E35A5B /* Assets.xcassets */,
@@ -155,6 +166,7 @@
 				10B3835B2B1DC02500E35A5B /* CardView.swift in Sources */,
 				10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */,
 				10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */,
+				1037F6DE2B1DC80800D33662 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
