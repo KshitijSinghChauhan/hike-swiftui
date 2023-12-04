@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		103341E12B1DE94E00F5F67E /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E02B1DE94E00F5F67E /* CustomButtonView.swift */; };
+		103341E32B1DF3FE00F5F67E /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E22B1DF3FE00F5F67E /* GradientButtonStyle.swift */; };
 		1037F6DE2B1DC80800D33662 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1037F6DD2B1DC80800D33662 /* ColorExtension.swift */; };
 		10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */; };
 		10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		103341E02B1DE94E00F5F67E /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		103341E22B1DF3FE00F5F67E /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		1037F6DD2B1DC80800D33662 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		10B383492B1DB3E800E35A5B /* hike-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hike-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				1037F6DD2B1DC80800D33662 /* ColorExtension.swift */,
+				103341E22B1DF3FE00F5F67E /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				10B3835B2B1DC02500E35A5B /* CardView.swift in Sources */,
 				10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */,
 				103341E12B1DE94E00F5F67E /* CustomButtonView.swift in Sources */,
+				103341E32B1DF3FE00F5F67E /* GradientButtonStyle.swift in Sources */,
 				10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */,
 				1037F6DE2B1DC80800D33662 /* ColorExtension.swift in Sources */,
 			);
