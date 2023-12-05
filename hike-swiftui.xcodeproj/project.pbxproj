@@ -12,6 +12,7 @@
 		103341E72B1E03A200F5F67E /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E62B1E03A200F5F67E /* CustomCircleView.swift */; };
 		103341E92B1E0FF900F5F67E /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E82B1E0FF900F5F67E /* MotionAnimationView.swift */; };
 		103341F02B1EF48800F5F67E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341EF2B1EF48800F5F67E /* SettingsView.swift */; };
+		103341F22B1F316D00F5F67E /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341F12B1F316D00F5F67E /* CustomListRowView.swift */; };
 		1037F6DE2B1DC80800D33662 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1037F6DD2B1DC80800D33662 /* ColorExtension.swift */; };
 		10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */; };
 		10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */; };
@@ -27,6 +28,7 @@
 		103341E62B1E03A200F5F67E /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		103341E82B1E0FF900F5F67E /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		103341EF2B1EF48800F5F67E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		103341F12B1F316D00F5F67E /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		1037F6DD2B1DC80800D33662 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		10B383492B1DB3E800E35A5B /* hike-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hike-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +76,7 @@
 				103341E02B1DE94E00F5F67E /* CustomButtonView.swift */,
 				103341E62B1E03A200F5F67E /* CustomCircleView.swift */,
 				103341E82B1E0FF900F5F67E /* MotionAnimationView.swift */,
+				103341F12B1F316D00F5F67E /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				10B3834F2B1DB3E800E35A5B /* ContentView.swift in Sources */,
 				103341E72B1E03A200F5F67E /* CustomCircleView.swift in Sources */,
+				103341F22B1F316D00F5F67E /* CustomListRowView.swift in Sources */,
 				10B3835B2B1DC02500E35A5B /* CardView.swift in Sources */,
 				10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */,
 				103341E12B1DE94E00F5F67E /* CustomButtonView.swift in Sources */,

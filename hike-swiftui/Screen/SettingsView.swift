@@ -74,28 +74,58 @@ struct SettingsView: View {
                     .padding(.vertical, 8)
             ) {
                 // 1. Basic Labeled Content
-                LabeledContent("Application", value: "HIKE")
+                // LabeledContent("Application", value: "HIKE")
                 
                 // 2. Advanced Labeled Content
-                LabeledContent {
-                    // Content
-                    Text("HIKE")
-                        .foregroundColor(.primary)
-                        .fontWeight(.heavy)
-                } label: {
-                    // Label
-                    HStack {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 8)
-                                .frame(width: 30, height: 30)
-                                .foregroundColor(.blue)
-                            Image(systemName: "apps.iphone")
-                                .foregroundColor(.white)
-                                .fontWeight(.semibold)
-                        }
-                        Text("Application")
-                    }
-                }
+                CustomListRowView(
+                    rowLabel: "Application",
+                    rowIcon: "apps.iphone",
+                    rowContent: "HIKE",
+                    rowTintColor: .blue
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Compatibility",
+                    rowIcon: "info.circle",
+                    rowContent: "iOS, iPadOS",
+                    rowTintColor: .red
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Technology",
+                    rowIcon: "swift",
+                    rowContent: "Swift",
+                    rowTintColor: .orange
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Version",
+                    rowIcon: "gear",
+                    rowContent: "1.0",
+                    rowTintColor: .purple
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Developer",
+                    rowIcon: "ellipsis.curlybraces",
+                    rowContent: "Kshitij",
+                    rowTintColor: .mint
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Designer",
+                    rowIcon: "paintpalette",
+                    rowContent: "Shashank",
+                    rowTintColor: .pink
+                )
+                
+                CustomListRowView(
+                    rowLabel: "Website",
+                    rowIcon: "applelogo",
+                    rowTintColor: .indigo,
+                    rowLinkLabel: "Apple Documentation",
+                    rowLinkDestination: "https://developer.apple.com/xcode/"
+                )
             } //: SECTION
         } //: LIST
     }
