@@ -21,7 +21,7 @@ struct SettingsView: View {
                     VStack(spacing: -10) {
                         Text("Hike")
                             .font(.system(size: 66, weight: .black))
-                        Text("Editors; Choice")
+                        Text("Editors' Choice")
                             .fontWeight(.medium)
                     }
                     
@@ -46,11 +46,11 @@ struct SettingsView: View {
                         .font(.title2)
                         .fontWeight(.heavy)
                     
-                    Text("The hike which looks gorgeous photos but is even better once you are actually there. The hike that you hope to do again someday. \nFind the best day hikes in the app.")
+                    Text("The hike which looks gorgeous in photos but is even better once you are actually there. The hike that you hope to do again someday. \nFind the best day hikes in the app.")
                         .font(.footnote)
                         .italic()
                     
-                    Text("Dust off the boots! It's ime for a walk.")
+                    Text("Dust off the boots! It's time for a walk.")
                         .fontWeight(.heavy)
                         .foregroundColor(.customGreenMedium)
                 }
